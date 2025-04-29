@@ -38,7 +38,7 @@ This tells us the percentage increase in units sold if a discount is offered.
 st.header("📈 Distribution of Price Elasticity (Relative-Lift Index)")
 
 # Load and display the image
-image_path = "/Users/juanherrera/Desktop/streamlit-report-hte/rel-lift.png"
+image_path = "rel-lift.png"
 image = Image.open(image_path)
 st.image(image, caption="Distribution of Relative Lift across Customers")
 
